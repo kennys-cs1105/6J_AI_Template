@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AI_Template"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\cpp\;CMake Files\..\cpp\opencv4.5.3\;CMake Files\..\cpp\opencv4.5.3\lib\;CMake Files\..\cpp\opencv4.5.3\lib\cmake\;CMake Files\..\cpp\opencv4.5.3\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/libengine.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 engine"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine/fast">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/libengine.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 engine/fast"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trt">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/CMakeFiles/trt.dir/trt.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 trt"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trt/fast">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/CMakeFiles/trt.dir/trt.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 trt/fast"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onnxrt">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/CMakeFiles/onnxrt.dir/onnxrt.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 onnxrt"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onnxrt/fast">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/CMakeFiles/onnxrt.dir/onnxrt.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 onnxrt/fast"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-11.3/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/TensorRT-8.0.1.6.Linux.x86_64-gnu.cuda-11.3.cudnn8.2/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/onnxruntime-linux-x64-1.8.1/include"/>
+					<Add directory="/home/kangshuai/Desktop/industry_detec/cpp/opencv4.5.3/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -f &quot;/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/CMakeFiles/onnxrt.dir/src/onnxrt_c.cpp.o">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/cmake-build-debug/CMakeFiles/trt.dir/src/trt.cpp.o">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/main.cpp">
+			<Option target="engine"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/src/onnxrt_c.cpp">
+			<Option target="onnxrt"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/src/onnxrt_c.h">
+			<Option target="onnxrt"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/src/trt.cpp">
+			<Option target="trt"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/src/trt.h">
+			<Option target="trt"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/../cpp/opencv4.5.3/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\cpp\opencv4.5.3\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/../cpp/opencv4.5.3/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\cpp\opencv4.5.3\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/../cpp/opencv4.5.3/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\cpp\opencv4.5.3\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/kangshuai/Desktop/industry_detec/AI_Template/../cpp/opencv4.5.3/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\cpp\opencv4.5.3\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
